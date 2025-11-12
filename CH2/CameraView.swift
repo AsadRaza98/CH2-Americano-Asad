@@ -20,5 +20,6 @@ class CameraView: UIView {
 }
 
 #Preview {
+    ///Adding a comment to check GIT
     CameraView()
 }
