@@ -10,9 +10,22 @@
 		94A108952EBE5761002A4414 /* CH2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CH2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		94A109102ECB8894002A4414 /* Exceptions for "CH2" folder in "CH2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94A108942EBE5761002A4414 /* CH2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		94A108972EBE5761002A4414 /* CH2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				94A109102ECB8894002A4414 /* Exceptions for "CH2" folder in "CH2" target */,
+			);
 			path = CH2;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,8 @@
 				DEVELOPMENT_TEAM = 9JLN5BVCKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CH2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoamMate;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to capture images for classification";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to select photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -290,6 +305,8 @@
 				DEVELOPMENT_TEAM = 9JLN5BVCKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CH2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoamMate;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to capture images for classification";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to select photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
