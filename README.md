@@ -15,9 +15,10 @@ https://www.kaggle.com/datasets/ilyaryabov/pictures-of-famous-places/data?select
 Create ML was used to train the image classification model on a dataset of 5 monuments, with the training and testing dataset divided in 80:20. 
 The accuracy of the model is 95%. Once the model was created, it was imported in the xcode project where the user's picture was given to the model as the input
 
-# Instructions 
-Download the dataset, project files and assets from the repositry.
-Run the CH2.xcodeproj on your Mac using XCode.
+# How To Run 
+1. Clone the repositry. 
+2. Download the dataset, project files and assets from the repositry.
+3. Run the CH2.xcodeproj on your Mac using XCode.
 
 # Specification 
-The application is built for ios26+ and tested for Iphone 16
+The application is built for ios26 and tested for Iphone 16
